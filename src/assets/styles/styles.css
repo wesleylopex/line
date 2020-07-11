@@ -1,0 +1,54 @@
+/* menu */
+.burger div {
+  width: 18px;
+  height: 1px;
+  margin: 4px;
+  transition: all 0.4s;
+  background-color: #fff;
+}
+
+.burger.active .first-line {
+  margin: 0;
+  transform: rotate(-45deg) translateX(-1px);
+}
+.burger.active .second-line {
+  margin: 0;
+  transform: rotate(45deg);
+}
+.burger.active ~ #navbar {
+  transform: translateX(0%);
+}
+
+#navbar {
+  top: 104px;
+  height: calc(100vh - 96px);
+  transform: translateX(100%);
+  transition: all 0.4s;
+}
+
+@media (min-width: 1024px) {
+  #navbar {
+    top: 0;
+    height: auto;
+    transform: translateX(0%);
+  }
+}
+
+* {
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: #141414;
+}
+::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
