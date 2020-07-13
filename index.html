@@ -30,9 +30,20 @@
             alt="Logo da Line Agência Digital"
           />
         </a>
-        <p class="hidden md:block">
-          54 996832682
-        </p>
+        <div class="grid grid-cols-2 gap-4">
+          <a href="https://www.facebook.com/linedigitalagencia" target="_blank">
+            <img
+              src="./src/assets/feather/feather-icons-black-1.5/facebook.svg"
+              alt="Facebook da Line Agência Digital"
+            />
+          </a>
+          <a href="https://www.instagram.com/_linedigital/" target="_blank">
+            <img
+              src="./src/assets/feather/feather-icons-black-1.5/instagram.svg"
+              alt="Instagram da Line Agência Digital"
+            />
+          </a>
+        </div>
       </div>
     </header>
 
@@ -41,11 +52,11 @@
     </main>
 
     <section
-      class="p-8 md:flex md:items-center md:justify-center max-w-screen-xl mx-auto my-10"
+      class="p-8 grid items-center justify-center max-w-screen-xl mx-auto my-10"
     >
       <img
         class="md:hidden"
-        src="./src/assets/images/company/post-choco.png"
+        src="./src/assets/images/company/post-chegou.png"
         alt="Post da Line Agência Digital"
       />
       <img
@@ -61,15 +72,20 @@
           Quem somos?
         </h1>
         <p class="mb-8 md:mb-0 col-start-2 col-end-4">
-          Surgimos dentro da <strong>Jocc Tecnologia</strong> após uma
-          reformulação estratégica de expansão da empresa. O que antes era um
-          setor de comunicação e design agora ganha autonomia e se torna a Line
-          agência digital.
+          Surgimos dentro da
+          <strong
+            ><a href="https://jocc.com.br" target="_blank"
+              >Jocc Tecnologia</a
+            ></strong
+          >
+          após uma reformulação estratégica de expansão da empresa. O que antes
+          era um setor de comunicação e design agora ganha autonomia e se torna
+          a Line agência digital.
         </p>
       </div>
     </section>
 
-    <section class="flex justify-center p-8 max-w-screen-xl mx-auto mb-20">
+    <section class="grid justify-center p-8 max-w-screen-xl mx-auto mb-20">
       <img
         class="lg:max-w-2xl"
         src="./src/assets/images/company/mockup-sichelero.png"
@@ -113,7 +129,7 @@
       </div>
     </section>
 
-    <section class="p-8 max-w-screen-xl flex justify-center mx-auto my-10">
+    <section class="p-8 max-w-screen-xl grid justify-center mx-auto my-10">
       <img
         class="md:hidden"
         src="./src/assets/images/company/mockup-chegou-2.png"
@@ -138,14 +154,17 @@
       </div>
       <div class="md:grid grid-cols-3">
         <div class="col-start-2 col-end-4">
-          <h1 class="mb-4 text-6xl md:text-8xl font-bold text-gray-500">
+          <h1 class="mb-4 text-6xl md:text-8xl font-bold text-gray-300">
             a arte.
           </h1>
           <div>
-            <p class="text-gray-500 text-4xl">
-              art is an experience,<br />not an object.
+            <p class="text-gray-300 text-4xl leading-8">
+              art is an experience,
             </p>
-            <span class="text-gray-500 text-xs">robert motherwell</span>
+            <p class="text-gray-300 text-4xl">
+              not an object.
+            </p>
+            <span class="text-gray-300 text-lg">robert motherwell</span>
           </div>
         </div>
       </div>
@@ -159,34 +178,33 @@
         <div class="mb-10 grid grid-cols-1 gap-6 md:gap-10">
           <div class="flex">
             <img
-              src="./src/assets/feather-icons-black/smartphone.svg"
+              src="./src/assets/feather/feather-icons-white-1.5/smartphone.svg"
               alt="Telefone da Line Agência Digital"
             />
             <p class="text-sm ml-4">
-              (54) 99693-2682 e (54) 3011.0010
+              <a
+                href="https://api.whatsapp.com/send?phone=5554996932682"
+                target="_blank"
+                >54 99693 2682</a
+              >
+              e
+              <a href="tel:+555430110010">54 3011 0010</a>
             </p>
           </div>
           <div class="flex">
             <img
-              src="./src/assets/feather-icons-black/mail.svg"
+              src="./src/assets/feather/feather-icons-white-1.5/mail.svg"
               alt="E-mail da Line Agência Digital"
             />
-            <p class="text-sm ml-4">
-              oi@lineagencia.com.br
-            </p>
+            <a href="mailto:oi@lineagencia.com.br">
+              <p class="text-sm ml-4">
+                oi@lineagencia.com.br
+              </p>
+            </a>
           </div>
           <div class="flex">
             <img
-              src="./src/assets/feather-icons-black/globe.svg"
-              alt="Site da Line Agência Digital"
-            />
-            <p class="text-sm ml-4">
-              www.lineagencia.com.br
-            </p>
-          </div>
-          <div class="flex">
-            <img
-              src="./src/assets/feather-icons-black/map-pin.svg"
+              src="./src/assets/feather/feather-icons-white-1.5/map-pin.svg"
               alt="Endereço da Line Agência Digital"
             />
             <p class="text-sm ml-4">
@@ -196,8 +214,8 @@
         </div>
       </div>
       <img
-        class="w-full"
-        src="./src/assets/images/banners/line-footer.png"
+        class="w-4/5"
+        src="./src/assets/images/banners/line-footer@3x.png"
         alt="Imagem de Planejamento da Line Agência Digital"
       />
     </footer>

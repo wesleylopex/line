@@ -1,3 +1,5 @@
+const { colors } = require("tailwindcss/defaultTheme");
+
 module.exports = {
   purge: [],
   theme: {
@@ -12,6 +14,10 @@ module.exports = {
           "100": "#FAFAFA",
           "200": "#F1F1F1",
           "300": "#DFDFDF",
+        },
+        gray: {
+          ...colors.gray,
+          "300": "#DBDBDB",
         },
       },
     },

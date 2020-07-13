@@ -46,8 +46,8 @@
   background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 2px;
-  background-color: #141414;
+  border-radius: 4px;
+  background-color: #DBDBDB;
 }
 ::-webkit-scrollbar-track-piece {
   background: transparent;
